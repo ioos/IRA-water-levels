@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Breanna Vanderplow"]
+channels = ["conda-forge"]
+name = "IRA-water-levels"
+platforms = ["linux-64", "win-64", "osx-64", "osx-arm64"]
+version = "1.0.0"
+
+[tasks]
+getHohonuObs = {cmd = "./getHohonuObs.py > getHohonuObs.log"}
+
+[dependencies]
+python = ">=3.10"
