@@ -10,3 +10,4 @@ getHohonuObs = {cmd = "./getHohonuObs.py > getHohonuObs.log"}
 
 [dependencies]
 python = ">=3.10"
+requests = ">=2.34.2,<3"
